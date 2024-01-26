@@ -84,7 +84,8 @@ button,
 }
 
 .hero img {
-  flex-shrink: 1;
+  flex: 1;
+  border-radius: 5px;
 }
 
 .heading {
