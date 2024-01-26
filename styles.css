@@ -1,14 +1,17 @@
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 18px;
 }
 
 button,
-.cta {
+.cta button {
   color: white;
   background-color: #3882f6;
+  font-size: 16px;
   padding: 8px 16px;
   border-radius: 15px;
   border: none;
+  font-weight: 600;
 }
 
 .header,
@@ -19,16 +22,6 @@ button,
   display: flex;
   padding: 48px 100px;
   align-items: center;
-}
-
-@media (max-width: 628px) {
-  .header,
-  .hero,
-  .heading,
-  .offerings,
-  .quote  {
-    padding: 16px 32px;
-  }
 }
 
 .header,
@@ -63,7 +56,6 @@ button,
 .header-links a,
 .hero p {
   color: #e5e7eb;
-  font-size: 18px;
 }
 
 .hero {
@@ -126,6 +118,8 @@ button,
 .quote {
   background-color: #e5e7eb;
   flex-direction: column;
+  padding-left: 140px;
+  padding-right: 140px;
 }
 
 .quote-text {
@@ -141,6 +135,44 @@ button,
   color: #1f2937;
 }
 
+.cta {
+  color: white;
+  background-color: #3882f6;
+  padding: 32px 48px;
+  border-radius: 5px;
+  margin: 48px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cta h3 {
+  margin: 0;
+  font-size: 1.3em
+}
+
 .cta button {
   border: 2px solid white;
+}
+
+
+@media (max-width: 628px) {
+  .header,
+  .hero,
+  .heading,
+  .offerings,
+  .quote  {
+    padding: 16px 32px;
+  }
+
+  .cta {
+    margin: 16px 32px;
+  }
 }
