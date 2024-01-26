@@ -1,0 +1,74 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+button,
+.cta {
+  color: white;
+  background-color: #3882f6;
+  padding: 8px 16px;
+  border-radius: 15px;
+  border: none;
+}
+
+.header,
+.hero {
+  background-color: #1f2937;
+  color: white;
+  padding: 16px 100px;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 1000;
+}
+
+.header-links ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+.header-links a {
+  text-decoration: none;
+}
+
+.header-links a,
+.hero p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex-grow: 1;
+  flex-basis: 300px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 1000;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.hero p {
+  margin: 8px 0px 16px;
+}
+
+.cta button {
+  border: 2px solid white;
+}
