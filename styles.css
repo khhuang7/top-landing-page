@@ -14,9 +14,10 @@ button,
 .header,
 .hero,
 .heading,
-.offerings  {
+.offerings,
+.quote  {
   display: flex;
-  padding: 16px 100px;
+  padding: 48px 100px;
   align-items: center;
 }
 
@@ -24,7 +25,8 @@ button,
   .header,
   .hero,
   .heading,
-  .offerings  {
+  .offerings,
+  .quote  {
     padding: 16px 32px;
   }
 }
@@ -38,6 +40,8 @@ button,
 .header {
   display: flex;
   justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 0;
 }
 
 .logo {
@@ -90,7 +94,6 @@ button,
 }
 
 .heading {
-  margin-top: 32px;
   justify-content: center;
   font-size: 36px;
   font-weight: 1000;
@@ -98,6 +101,7 @@ button,
 }
 
 .offerings {
+  padding-top: 0;
   justify-content: center;
   align-items: flex-start;
   gap: 32px;
@@ -119,6 +123,23 @@ button,
   text-align: center;
 }
 
+.quote {
+  background-color: #e5e7eb;
+  flex-direction: column;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+  color: #1f2937;
+}
+
+.quote-person {
+  align-self: flex-end;
+  font-weight: bold;
+  color: #1f2937;
+}
 
 .cta button {
   border: 2px solid white;
